@@ -1,0 +1,29 @@
+# Node.js modules
+node_modules/
+
+# Archivos de entorno locales
+.env.local
+.env
+
+# Archivos de Next.js generados (no necesitan ser parte de la imagen Docker)
+.next/
+
+# Archivos de log
+*.log
+
+# Directorios de test o desarrollo que no son necesarios en producción
+tests/
+test/
+
+# Archivos de configuración de desarrollo
+*.md
+Dockerfile
+docker-compose.yml
+
+# Ignorar archivos de compilación
+dist/
+out/
+
+# Archivos de sistemas operativos (si no estás usando un contenedor multiplataforma)
+.DS_Store
+Thumbs.db

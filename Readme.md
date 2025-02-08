@@ -71,5 +71,5 @@ npm start
 ### 1. Construir y levantar los contenedores
 Ejecuta el siguiente comando desde la carpeta **frontend** (donde se encuentra `docker-compose.yml`):
 ```sh
-docker-compose up -d --build
+docker-compose up -d
 ```
